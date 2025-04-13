@@ -51,9 +51,9 @@ public class Reservation {
         return "Room"
         + roomNumber
         + ", check-in: "
-        + sdf.format(checkIn)
+        + sdf.format(this.checkIn)
         + ", check-out: "
-        + sdf.format(checkOut)
+        + sdf.format(this.checkOut)
         + ", "
         + duration()
         + " nights";
